@@ -41,6 +41,10 @@ h6 {
   text-transform: uppercase;
   font-weight: 700;
 }
+.img-boss {
+  max-width: 160px;
+  margin-left: 30px;
+}
 .img-centered {
   margin: 0 auto;
 }
@@ -217,7 +221,7 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
-  background-image: url('../img/bg_new.JPG');
+  background-image: url('../img/header-bg.png');
   background-repeat: none;
   background-attachment: scroll;
   background-position: center center;
@@ -230,6 +234,9 @@ header {
 }
 header .intro-text {
   padding-top: 100px;
+}
+header .intro-text img {
+  width: 100%;
 }
 header .intro-text .intro-lead-in {
   font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -245,6 +252,12 @@ header .intro-text .intro-heading {
   font-size: 50px;
   line-height: 50px;
   margin-bottom: 25px;
+}
+header div.more-button {
+  margin-bottom: 180px;
+}
+header div.more-button a.page-scroll {
+  margin-top: 25px;
 }
 @media (min-width: 768px) {
   header .intro-text {
@@ -267,7 +280,7 @@ header .intro-text .intro-heading {
   }
 }
 section {
-  padding: 40px 0;
+  padding: 80px 0;
 }
 section h2.section-heading {
   font-size: 40px;
@@ -481,6 +494,9 @@ section#contact {
   background-position: center;
   background-repeat: no-repeat;
 }
+section#contact .socials {
+  font-size: 4em;
+}
 section#contact .section-heading {
   color: white;
 }
@@ -673,8 +689,11 @@ body {
   margin-left: 30px;
   vertical-align: middle;
 }
+section.application p {
+  text-align: justify;
+}
 .contacts div.contact {
-  background-color: rgba(255, 255, 255, 0.5);
+  background-color: rgba(255, 255, 255, 0.8);
   width: 100% ;
   padding: 10px;
 }

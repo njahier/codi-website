@@ -54,22 +54,22 @@
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <a href="http://mdecs48.fr" target="_blank"><img src='/static/img/logos/mde_greta.jpg' style="max-width:160px;  margin-left: 30px;"></a>
+                <a href="http://mdecs48.fr" target="_blank"><img class="img-boss" src='/static/img/logos/mde_greta.jpg'></a>
                 <ul class="nav navbar-nav navbar-right">
                     <li class="hidden">
                         <a href="#page-top"></a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#codincamp">La formation</a></a>
+                        <a class="page-scroll" href="#codincamp">Formation</a></a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#registration">Inscription</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#project">Le projet</a>
+                        <a class="page-scroll" href="#project">Projet</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#jobs">Les Métiers</a>
+                        <a class="page-scroll" href="#jobs">Métiers</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#partners">Partenaires</a>
@@ -87,12 +87,10 @@
     <header>
         <div class="container">
             <div class="intro-text">
-                <!-- <div style="background: url('static/img/comingsoon.png') no-repeat; background-size: 50%;position: relative;float:right;margin-bottom: -180px;margin-right: -100px;"></div> -->
-                <img src="/static/img/logos/codincamp.png" style="width:100%"/>
-
+                <img src="/static/img/logos/codincamp.png"/>
             </div>
-            <div style="margin-bottom: 180px;">
-                <a href="#codincamp" class="page-scroll btn btn-xl" style="margin-top: 25px">En savoir plus</a>
+            <div class="more-button">
+                <a href="#codincamp" class="page-scroll btn btn-xl">En savoir plus</a>
             </div>
         </div>
     </header>
@@ -106,12 +104,16 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-12 text-center portfolio-item">
-                    <iframe width="50%" height="340" src="https://www.youtube.com/embed/1H0BSHB1gZ4" frameborder="0" allowfullscreen></iframe>
+                <div class="col-lg-9 text-center portfolio-item">
+                    <iframe  width="60%" height="340" src="https://www.youtube.com/embed/1H0BSHB1gZ4" frameborder="0" allowfullscreen></iframe>
                     <div class="portfolio-caption">
                         <h4>Présentation de Còdi n Camp</h4>
                         <p class="text-muted">Source France 3 Languedoc-Roussillon</p>
                     </div>
+                </div>
+                <div class="col-lg-3 text-center">
+                    <a class="twitter-timeline"  href="https://twitter.com/codincamp" data-widget-id="637275900824932352">Tweets de @codincamp</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
                 </div>
             </div>
         </div>
@@ -157,7 +159,7 @@
                     Des bases en anglais sont nécessaires.<br />
                     Étape 1 : Candidature en ligne<br />
                     Étape 2 : Entretiens de sélection<br />
-                    Vous serez convoqué à un entretien devant un jury sur le site de formation.<br /></p>
+                    Vous serez invité à un entretien devant un jury sur le site de formation.<br /></p>
                 </div>
             </div>
             <div class="row text-center">
@@ -167,7 +169,7 @@
                         <i class="fa fa-book fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Pédagogie</h4>
-                    <p class="text-muted">Còdi n camp s’appuie sur une pédagogie innovante et intensive mise en place par l’école <a href="http://simplon.co">Simplon.co</a>.
+                    <p class="text-muted">Còdi n camp s’appuie sur une pédagogie innovante et intensive mise en place par l’école <a href="http://simplon.co" target="_blank">Simplon.co</a>.
                         Elle est fondée principalement sur le travail en mode projet, la transmission par les pairs et la mise en situation.
                         Un lien fort avec les entreprises tout au long de la formation renforce l’insertion professionnelle des stagiaires dans l’écosystème numérique régional.</p>
                 </div>
@@ -177,7 +179,7 @@
                         <i class="fa fa-university fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Simplon.co</h4>
-                    <p class="text-muted"><a href="http://simplon.co">Simplon.co</a> est une école qui propose des formations intensives de six mois pour apprendre à créer des sites web,
+                    <p class="text-muted"><a href="http://simplon.co" target="_blank">Simplon.co</a> est une école qui propose des formations intensives de six mois pour apprendre à créer des sites web,
                         des applications web/mobile, et en faire son métier. Crée à Montreuil (93), l’initiative Simplon.co a été labélisée
                         dans le cadre du programme “La France s’engage”. Simplon.co est une entreprise sociale dédiée à l’utilisation numérique comme levier d’inclusion et d’emploi.</p>
                 </div>
@@ -206,13 +208,12 @@
             </div>
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <p>
+                    <p style="font-size:1.5em;">
                         Les inscriptions pour Còdi n camp sont ouvertes à tous, pourvu que la motivation soit au rendez-vous ! </br>
-                        Les candidatures ouvrent le <span style="font-weight:bold">lundi 31 août 2015</span>.</br>
-                        En attendant remplissez ce formulaire de pré-inscription pour être, d'ores et déjà, dans la liste des candidats, être tenu informé des
-                        actualités de l'école, connaitre le calendrier et participer à la vie de Còdi n camp !
+                        Les candidatures sont possibles jusqu'au <span style="font-weight:bold">lundi 11 octobre 2015</span>.</br>
+                        Remplissez ce formulaire et rejoingnez  Còdi n camp ! Dépêchez-vous, les places sont limitées ;-) !
                     </p>
-                    <a href="inscription.html" class="page-scroll btn btn-xl" style="margin-top: 25px">Je me pré-inscris !!! </a>
+                    <a href="inscription.html" class="page-scroll btn btn-xl" style="margin-top: 25px">Je candidate !!! </a>
                 </div>
         </div>
     </section>
@@ -238,7 +239,7 @@
                                 </div>
                                 <div class="timeline-body">
                                     <p class="text-muted">Constatant les besoins de plus en plus important dans les métiers du développement web,
-                                        <a href="http://simplon.co">Simplon.co</a> et <a href="http://zevillage.net/">Zevillage</a> lancent un appel à projet national visant la création d’écoles rurales de développeurs informatiques.</p>
+                                        <a href="http://simplon.co" target="_blank">Simplon.co</a> et <a href="http://zevillage.net/" target="_blank">Zevillage</a> lancent un appel à projet national visant la création d’écoles rurales de développeurs informatiques.</p>
                                 </div>
                             </div>
                         </li>
@@ -279,15 +280,15 @@
                                     <h4>Mars 2015</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">L’école de codeurs à la campagne se dote d’une identité visuelle unique. Le lapin de Còdi n camp voit le jour !</p>
+                                    <p class="text-muted">L’école de codeurs à la campagne se dote d’une identité visuelle unique. Le lapin de Còdi n camp voit le jour ! <br/>
+                                    Còdi n camp est une formation <a href="http://simplon.co" target="_blank">Simplon.co</a>.
+                                    </p>
                                 </div>
                             </div>
                         </li>
                         <li class="timeline-inverted">
                             <div class="timeline-image">
-                                <h4>1ère session
-                                    <br>Décembre 2015
-                                    <br>Juin 2016</h4>
+                                <h4>Ouverture<br/>Décembre<br/>2015</h4>
                             </div>
                         </li>
                     </ul>

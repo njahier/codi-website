@@ -49,6 +49,11 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
 
+.img-boss {
+    max-width:160px;
+    margin-left: 30px;
+}
+
 .img-centered {
     margin: 0 auto;
 }
@@ -171,6 +176,9 @@ header {
     color: white;
     .intro-text {
         padding-top: 100px;
+        img {
+            width: 100%;
+        }
         .intro-lead-in {
             .serif-font;
             font-style: italic;
@@ -184,6 +192,12 @@ header {
             font-size: 50px;
             line-height: 50px;
             margin-bottom: 25px;
+        }
+    }
+    div.more-button{
+        margin-bottom: 180px;
+        a.page-scroll {
+            margin-top: 25px;
         }
     }
 }
@@ -213,7 +227,7 @@ header {
 // Global Section Styles
 
 section {
-    padding: 40px 0;
+    padding: 80px 0;
     h2.section-heading {
         font-size: 40px;
         margin-top: 0;
@@ -459,6 +473,9 @@ section#contact {
     background-image: url('../img/map-image.png');
     background-position: center;
     background-repeat: no-repeat;
+    .socials {
+        font-size: 4em;
+    }
     .section-heading {
         color: white;
     }
@@ -669,10 +686,15 @@ body {
 
 }
 
+section.application {
+    p {
+        text-align: justify;
+    }
+}
 
 .contacts {
     div.contact {
-        background-color: rgba(255, 255, 255, 0.5);
+        background-color: rgba(255, 255, 255, 0.8);
         width:100% ;
         padding:10px
     }
