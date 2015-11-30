@@ -37,6 +37,14 @@
 </head>
 
 <body id="page-top" class="index">
+    <div id="fb-root"></div>
+    <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = "//connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.5&appId=724284684343376";
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));</script>
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -62,9 +70,9 @@
                     <li>
                         <a class="page-scroll" href="#codincamp">Formation</a></a>
                     </li>
-                    <li>
+                    <!-- <li>
                         <a class="page-scroll" href="#registration">Inscription</a>
-                    </li>
+                    </li> -->
                     <li>
                         <a class="page-scroll" href="#project">Projet</a>
                     </li>
@@ -73,6 +81,9 @@
                     </li>
                     <li>
                         <a class="page-scroll" href="#partners">Partenaires</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#socials">Actus</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contacts</a>
@@ -104,16 +115,12 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-9 text-center portfolio-item">
+                <div class="col-lg-12 text-center portfolio-item">
                     <iframe  width="60%" height="340" src="https://www.youtube.com/embed/1H0BSHB1gZ4" frameborder="0" allowfullscreen></iframe>
                     <div class="portfolio-caption">
                         <h4>Présentation de Còdi n Camp</h4>
                         <p class="text-muted">Source France 3 Languedoc-Roussillon</p>
                     </div>
-                </div>
-                <div class="col-lg-3 text-center">
-                    <a class="twitter-timeline"  href="https://twitter.com/codincamp" data-widget-id="637275900824932352">Tweets de @codincamp</a>
-                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
                 </div>
             </div>
         </div>
@@ -209,11 +216,17 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <p style="font-size:1.5em;">
+                        Les inscriptions pour Còdi n camp sont closes </br>
+                        La session 2015-2016 débute le 1er décembre. </br>
+                        Nous restons à votre disposition pour d'éventuelles informations </br>
+                        <span style="color:#71B43D"><i class="fa fa-envelope"></i> contact@codincamp.fr</span>
+                    </p>
+                    <!-- <p style="font-size:1.5em;">
                         Les inscriptions pour Còdi n camp sont ouvertes à tous, pourvu que la motivation soit au rendez-vous ! </br>
-                        Les candidatures sont possibles jusqu'au <span style="font-weight:bold">lundi 11 octobre 2015</span>.</br>
+                        Les candidatures sont possibles jusqu'au <span style="font-weight:bold">jeudi 29 octobre 2015 (inclu)</span>.</br>
                         Remplissez ce formulaire et rejoingnez  Còdi n camp ! Dépêchez-vous, les places sont limitées ;-) !
                     </p>
-                    <a href="inscription.html" class="page-scroll btn btn-xl" style="margin-top: 25px">Je candidate !!! </a>
+                    <a href="inscription.html" class="page-scroll btn btn-xl" style="margin-top: 25px">Je candidate !!! </a> -->
                 </div>
         </div>
     </section>
@@ -346,24 +359,44 @@
                     <img src="/static/img/partners/regionlr.png" />
                     <img src="/static/img/partners/europe.png" />
                     <img src="/static/img/partners/europe2.png" />
-                    <img src="/static/img/partners/poleemploi.png" />
+                    <img src="/static/img/partners/rep_fr.png" />
                 </div>
                 <div class="partner col-lg-12">
+                    <img src="/static/img/partners/poleemploi.png" />
                     <img src="/static/img/partners/cg48.jpg" />
                     <img src="/static/img/partners/mende.jpg" />
                     <img src="/static/img/partners/eplfpa48.jpg" />
-                    <img src="/static/img/partners/lozdev.jpg" />
                 </div>
                 <div class="partner col-lg-12">
+                    <img src="/static/img/partners/lozdev.jpg" />
                     <img src="/static/img/partners/cci48.jpg" />
                     <img src="/static/img/partners/synersud.png" />
                     <img src="/static/img/partners/erdf.jpg" />
-                    <img src="/static/img/partners/orange.png" style="width:90px"/>
                 </div>
             </div>
             <!-- /.row -->
         </div>
         <!-- /.container -->
+    </section>
+
+    <section id="socials" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2>Suivez-nous sur les réseaux sociaux</h2>
+                    <p class="lead">&nbsp;</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 text-center">
+                    <div class="fb-page" data-href="http://www.facebook.com/codincamp" data-width="520" data-height="400" data-small-header="true" data-adapt-container-width="false" data-hide-cover="false" data-show-facepile="false" data-show-posts="true"><div class="fb-xfbml-parse-ignore"><blockquote cite="http://www.facebook.com/codincamp"><a href="http://www.facebook.com/codincamp">Còdi n camp</a></blockquote></div></div>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <a class="twitter-timeline"  href="https://twitter.com/codincamp" data-widget-id="637275900824932352">Tweets de @codincamp</a>
+                    <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+                </div>
+            </div>
+        </div>
     </section>
 
     <section id="contact" class="contacts">
