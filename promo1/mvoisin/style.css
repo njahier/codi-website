@@ -1,0 +1,317 @@
+
+
+.bg-grey {
+    background-color: white;
+}
+
+body {
+    margin: 0px;
+    font-size: 14px;
+    line-height: 1.75;
+    color: #777;
+    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: #281E1E;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+footer {
+  text-align: center;
+  color: #ffffff;
+}
+
+.couleur-lien {
+  color: #71b43d;
+}
+
+.bg-green {
+        background-color: #71b43d;
+        color: #fff;
+}
+
+
+.nom-couleur {
+  color: #71b43d;
+  float:left;
+  margin-left: 25px;
+  margin-right: 10px;
+}
+
+.trombi {
+  list-style-type: none;
+}
+.trombi img {
+  display: block;
+}
+.trombi a {
+  text-decoration: none;
+}
+
+.trombi li {
+  width: 150px;
+  text-align: center;
+  float: left;
+  margin: 25px;
+  height: 200px;
+}
+ .section-largeur {
+   width: 1170px;
+   margin: auto;
+ }
+
+.largeur-texte {
+  width: 1170px;
+  margin: auto;
+}
+
+.div-texte-moi {
+  float: left;
+  width: 50%;
+}
+
+.div-photo-profil {
+  float: right;
+  width: 50%;
+  text-align: center;
+  padding-top: 17px;
+}
+
+.div-realise {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+.div-en-cours {
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+.bio {
+  background-color: #F5F5F5;
+  padding: 10px 0px 10px 0px;
+  text-align: center;
+}
+
+.div-realise ul{
+  list-style-type: none;
+  padding: 0px;
+}
+
+.div-en-cours ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+.zoom-image {
+  zoom: 150%;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  color: #281E1E;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+form {
+    /* Pour le centrer dans la page */
+    margin: 0 auto;
+    width: 400px;
+    /* Pour voir les limites du formulaire */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+
+.titre {
+  background-color: #71b43d;
+  color: #fff;
+  text-align: center;
+}
+
+.footer {
+  margin-top: 230px;
+  background-color: #71b43d;
+  color: #fff;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.div-nom {
+  margin: 20px;
+  margin-left: 60px;
+}
+
+.div-email {
+  margin: 20px;
+  margin-left: 39px;
+}
+
+.div-texte {
+  margin: 20px;
+  margin-left: 30px;
+}
+
+.div-bouton {
+  margin: 20px;
+  text-align: center;
+}
+
+.case {
+  border-radius: 3px;
+}
+
+.form-marge {
+  background-color: white;
+}
+
+.body-marge {
+  margin: 0px;
+}
+
+.section-contact {
+    background-color: #F5F5F5;
+    padding-top: 10px;
+    padding-bottom: 60px;
+}
+.titre-contact {
+  text-align: center;
+}
+
+#photo {
+  width: 200px;
+  height: 200px;
+  border-radius: 4px;
+}
+
+#section-bio {
+  height: 100px;
+  text-align: center;
+}
+
+#section-moi {
+  height: 240px;
+  background-color: #F5F5F5;
+}
+
+#section-projet {
+  height: 220px;
+  padding-bottom: 35px;
+}
+
+#section-loisir {
+  padding: 1px 0px 10px 50px;
+  background-color: #F5F5F5;
+  text-align: center;
+}
+
+#section-loisir ul li {
+  list-style-type: none;
+}
+
+input {
+  border-radius: 4px;
+}
+
+textarea {
+  border-radius: 4px;
+}
+
+button {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: white;
+  background-color: #71b43d;
+  border-radius: 4px;
+}
+
+.lapin {
+  border-radius: 4px;
+  height: 60px;
+  width: 60px;
+  float: right;
+  margin-top: -68px;
+}
+
+footer {
+      font-size: 1.2em;
+      color: #333;
+      font-weight: bold;
+      text-align: center;
+      margin-left: 70px;
+}
+
+header {
+  background-color: black;
+  padding: 25px;
+  height: 50px;
+}
+
+header .codi {
+  float: left;
+  margin-left: 48px;
+}
+
+header img {
+  width: 160px;
+  margin-left: 51px;
+  float: left;
+}
+
+.codi {
+  font-size: 2em;
+  float: left;
+  color: #71b43d;
+  text-decoration: none;
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+}
+
+.menu li {
+  display: inline;
+  margin-left: 25px;
+}
+
+.menu {
+  list-style-type: none;
+  font-size: 14px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;*
+}
+
+nav {
+  float: left;
+  margin-left: 140px;
+}
+
+nav a:hover {
+  color: #71b43d;
+}
+
+.titre87 {
+  font-size: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "montserrat", sans-serif;
+}
+
+.a31 {
+  font-size: 20px;
+  text-transform: uppercase;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-family: "montserrat", sans-serif;
+}
+
+ul {
+  padding: 0;
+}
+
+.d75 {
+  clear: both;
+}
