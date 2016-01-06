@@ -1,0 +1,191 @@
+*{
+  margin:0;
+  padding: 0;
+}
+
+span {
+    float:left;
+    color:green;
+    margin-left:20px;
+}
+.menu {
+  list-style-type: none;
+  margin-top: 20px;
+  float: right;
+  font-size: 20px;
+  font-family: "Monserrat","Helvetica Neue",-Arial-sans-serif;
+  letter-spacing:1px;
+}
+
+.menu a{
+  text-decoration: none;
+  outline: none;
+  color:white;
+}
+.menu li {
+   display:inline;
+   margin-left: 10px;
+}
+header {
+    background-color: black;
+    font-size: 30px;
+    height: 50px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+body {
+    margin:0;
+
+}
+
+nav {
+    background-color: black;
+    color:black;
+    width: 960px;
+    height: 50px;
+    margin: auto;
+    text-decoration: none;
+    outline: none;
+}
+nav a:hover{
+  color:#71B43D;
+}
+.grey-bg {
+    background-color: #f7f7f7;}
+
+.text-muted{
+    color: #777777;
+}
+section{
+    color:#777777;
+    text-align: center;
+
+}
+h3{
+    color:black;
+    font-size:20px;
+    text-align: center;
+    font-family: "Monserrat";
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+  }
+
+.trombi img{
+  display: block;
+}
+
+.trombi{
+  list-style-type: none;
+  }
+
+.trombi li{
+  text-align: center;
+  float: left;
+  margin: 5px;
+  height:200px;
+  width: 150px;
+}
+.largeur{
+  width: 960px;
+  margin: auto;
+}
+
+.center{
+  width:1170px;
+  margin-left: 150px;
+  min-height: 215px;
+  padding-top:1em;
+  padding-bottom:1em;
+
+}
+
+.texte, .image{
+  float:left;
+  text-align: center;
+  width:50%;
+}
+
+.left{
+  float:left;
+  text-align: center;
+  width:50%;
+}
+
+.right{
+  float:left;
+  width:50%;
+  text-align: center;
+}
+
+.colorRed{
+  border: 2px red solid;
+}
+
+.colorGreen{
+  border: 2px green solid;
+}
+
+.zoomImage{
+  zoom:150%;
+  -moz-transform: scale(2);
+}
+form {
+    /* Pour le centrer dans la page */
+    margin: 0 auto;
+    width: 400px;
+    /* Pour voir les limites du formulaire */
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+}
+.button {
+    /* Pour positionner les boutons de la même manière que les champs textuels */
+    padding-left: 90px; /* même dimension que les étiquettes */
+}
+form div + div {
+    margin-top: 1em;
+}
+
+textarea {
+    /* Pour aligner correctement les champs multilignes et leurs étiquettes */
+    vertical-align: top;
+
+    /* Pour donner assez d'espace pour entrer du texte */
+    height: 5em;
+    /* Pour permettre aux utilisateurs de redimensionner un champ textuel horizontalement
+       Cela ne marche pas avec tous les navigateurs  */
+    resize: vertical;
+    }
+
+h1 {
+    text-align: center
+    }
+#photo {
+  display:block;
+  width:200px;
+  height:200px;
+
+}
+.navbar{
+  font-family:"Kaushan Script";
+  color:#71b43d;
+  font-size:25px;
+  padding-top: 20px;
+
+
+}
+
+.cv{
+  list-style-type: none;
+  margin-top: 10px;
+}
+
+.loisirs{
+  list-style-type: none;
+
+}
+footer{
+  text-align: center;
+}
