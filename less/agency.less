@@ -702,3 +702,32 @@ section.application {
         margin-bottom: 30px;
     }
 }
+
+.trombi {
+    ul {
+        list-style-type: none;
+        li {
+            padding-top: 20px;
+            float:left;
+            width: 33%;
+            height: 270px;
+            // vertical-align: middle;
+            text-align: center;
+            img {
+                width: 150px;
+                height: 200px;
+            }
+            span.full_name {
+                display: block;
+                font-size: 15px;
+                margin-top: 20px;
+                .last_name {
+                    text-transform: uppercase;
+                }
+            }
+        }
+        li:hover {
+            background-color: @gray-lighter;
+        }
+    }
+}
