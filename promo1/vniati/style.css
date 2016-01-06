@@ -1,0 +1,253 @@
+
+.nomban {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+￼  text-transform: uppercase;
+  font-size: 18px;
+  color: #71B43D;
+  font-weight: bold;
+  float: left;
+}
+
+.totnav {
+  padding-top: 20px;
+  width: 1170px;
+  margin: auto;
+}
+
+body {
+  margin: 0;
+}
+
+.codin {
+  display: inline-block;
+  color: #71B43D;
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+  font-size: 2em;
+  vertical-align: middle;
+  margin-left: 23px;
+  text-decoration: none;
+}
+
+nav {
+  text-align: center;
+  display: inline-block;
+  margin-left: 5%;
+}
+
+main {
+  width: 1170px;
+  margin: auto;
+}
+
+
+header {
+  padding-top: 1px;
+  background-color: black;
+  height: 99px;
+}
+
+.menu {
+  list-style-type: none;
+}
+
+.greta {
+  display: inline-block;
+  max-width: 160px;
+  vertical-align: middle;
+  margin-left: 30px;
+}
+
+.menu a:hover {
+  color: #71B43D;
+}
+
+.menu a {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.menu li {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  display: inline-block;
+  margin-left: 50px;
+  letter-spacing: 1px;
+}
+
+.titremoi {
+  width: 1170px;
+  margin: auto;
+}
+
+.apropo {
+  width: 50% ;
+  float: left;
+  text-align: center;
+}
+
+.photo {
+  text-align: center;
+  width: 50%;
+  display: inline-block;
+  padding-top: 10px;
+}
+
+.photo img {
+  border-radius: 4px;
+}
+
+.para {
+  font-family: "Roboto Slab", "Helvetica Neue";
+￼  font-size: 14px;
+￼  line-height: 1.75;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  text-align: center;
+}
+
+.listbas li {
+font-family: "Roboto Slab", "Helvetica Neue";
+￼font-size: 14px;
+
+}
+.clasbio {
+  width: 1170px;
+  margin: auto;
+}
+
+.clasobjectif {
+  width: 1170px;
+  margin: auto;
+}
+
+.clasproj {
+  width: 1170px;
+  margin: auto;
+  height: 130px;
+}
+
+.clasloisirs {
+  width: 1170px;
+  margin: auto;
+}
+
+#proj {
+    background-color: #f7f7f7
+  }
+
+#bio {
+  background-color: #f7f7f7
+}
+
+
+.left {
+  width: 50% ;
+  float: left ;
+  text-align: center;
+}
+
+.right {
+  text-align: center;
+  width: 50%;
+ display: inline-block; ;
+}
+
+.moi {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 19px;
+}
+
+.tilt {
+
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  padding-left: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.titree {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  padding-left: 30px;
+  padding-top: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.titreee {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding-top: 5px;
+}
+
+.minititre {
+  ￼font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  margin: 0px;
+  padding-left: 30px;
+}
+
+.foot {
+  text-align: center;
+  padding-top: 20px;
+}
+
+.listebas {
+  list-style-type: none;
+  text-align: center;
+}
+
+.listehaut {
+  list-style-type: none;
+}
+
+#formulairee {
+  background-color: #f7f7f7
+}
+
+/*css du trombi*/
+
+.trombi li img {
+  display: block;
+}
+
+.trombi li {
+  list-style-type: none;
+  width: 150px;
+  text-align: center;
+  float: left;
+  padding: 10px;
+  height: 200px;
+}
+
+.secti {
+  width: 1170px;
+  margin: auto;
+}
+
+.colorred {
+  border: 2px red solid;
+}
+
+.colorgreen {
+  border: 2px green solid;
+}
+
+.zoomimage{
+  zoom: 150%;
+  -moz-transform: scale(2);
+}
