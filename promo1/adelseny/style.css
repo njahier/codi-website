@@ -13,12 +13,10 @@ header {
 }
 
 section{
-  width: 1170px;
   margin: auto;
 }
 .bg-gray {
   background-color:#f7f7f7;
-  width: 1170px;
   margin: auto;
 
 }
@@ -48,6 +46,7 @@ span {
   margin: auto;
   text-align: center;
   padding-top: 10px;
+  width: 1170px;
 }
 
 .menu li {
