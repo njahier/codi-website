@@ -1,0 +1,251 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bg-light-gray{
+        background-color: #f7f7f7;
+
+}
+body {
+  margin: 0;
+  color: #777;
+  font-size: 14px;
+}
+/*.lapin{
+  float: right;
+}*/
+
+.vendres{
+  width:1170px;
+  margin: auto;
+  /*text-align: center;*/
+  padding-top: 10px;
+}
+.droite{
+  width: 50%;
+  float: right;
+  text-align: center;
+
+}
+.clear{
+  clear: both;
+}
+.gauche{
+  width: 50%;
+  float: left;
+  text-align: center
+}
+.realise{
+  width: 50%;
+  float: left;
+  text-align: center;
+  /*list-style-type: none;*/
+}
+.encours{
+  width: 50%;
+  float: left;
+  text-align: center;
+  /*list-style-type: none;*/
+}
+.gauche div{
+  margin-bottom: 5px;
+}
+h1, h2{
+  color:#333;
+  text-transform: uppercase;
+  font-size: 20px;
+  margin: 20px 0px 20px 0px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+header ul li a {
+  color: red;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+label{
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+}
+/*img {
+  float: right;
+
+}*/
+.menu a:hover {
+color:green;
+text-decoration:none;
+color: #71b43d
+/*background-color:#71b43d;*/
+/*border: 10px solid #71b43d ;*/
+/*border-radius: 5px;*/
+}
+.menu li a{
+  color: white;
+}
+footer{
+  text-align: center;
+  font-size:14px;
+  background-color: #fff;
+}
+.img-boss {
+    max-width: 160px;
+    margin-left: 30px;
+    float: left;
+}
+ul {
+  list-style:none;
+  display:inline;
+
+}
+header {
+ font-size:30px;
+ color:#C1D44D;
+ background-color: #000;
+ padding-top: 25px;
+ padding-bottom:10px;
+}
+
+span{
+  color:#71B43D;
+}
+
+nav strong a {
+  float: left;
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+  color: #71b43d;
+  text-decoration: none;
+  font-size: 23px;
+  padding: 15px 15px;
+  line-height: 20px;
+  font-weight: normal;
+}
+section{
+  height: 220px;
+}
+
+
+ #texte{
+   text-decoration: underline;
+ }
+
+ /*h2 {
+   color: #C1D44D;
+ }*/
+
+.menu li{
+  float:left;
+  margin-left: 20px;
+  list-style: none;
+}
+
+.menu{
+  list-style-type: none;
+  float: right;
+}
+#texte {
+  color:#71b43d;
+}
+nav{
+  width: 1170px;
+  display: block;
+  margin: auto;
+}
+.droite img{
+  width: 200px;
+  height: 200px;
+  box-shadow: 5px 5px 20px;
+  border-radius: 10px;
+}
+
+/*.trombi li img{
+  margin-left: 25px;
+  display: block;
+}
+.trombi a {
+  margin-left: 25px;
+  color: green;
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+}
+
+.trombi li {
+  width: 150px;
+  text-align: center;
+  float: left;
+  padding: 10px;
+  height: 200px
+  width:150px;
+}
+.trombi{
+  list-style-type: none;
+}*/
+.largeur{
+  width: 960px;
+  margin: auto;
+}
+#pCpt{
+  color: green;
+}
+
+.colorGreen{
+  border: 2px green solid;
+}
+
+.zoomImage{
+  zoom:150%;
+  -moz-transform:scale(2);
+}
+.contact{
+  color: #BBCD4B;
+  /*font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;*/
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+  text-align: center;
+}
+i{
+   color: #BBCD4B;}
+label{
+  color:#71B43D;
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+  font-size: 16px;
+  font-weight: bold;
+}
+header ul li a {
+  color:#71b43d;
+}
+
+button{
+  color: green;
+  border-radius: 16px;
+}
+
+.centrer{
+  text-align: center;
+}
+
+form {
+    margin: 20px auto;
+    width: 400px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 1em;
+    cursor: pointer;
+    box-shadow:5px 5px 15px #333;
+}
+
+form div + div {
+    margin-top: 1em;
+}
+
+input{
+  border-radius: 16px;
+  /*background-color: green;*/
+}
+.obligatoire{
+  color: red;
+}
+footer{
+  color: black;
+}
+section{
+  text-align: center;
+}
