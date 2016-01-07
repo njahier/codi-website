@@ -1,0 +1,134 @@
+body {
+  width: 1000px;
+  margin: auto;
+}
+
+header {
+  width: 1000px;
+  float: right;
+}
+
+aside {
+  z-index: 10;
+  position:relative;
+  top:20px; width:16%;height: 1150px;
+  background-color: #F2F1F0;
+  float: left;
+}
+
+.etatCivil {
+  z-index: 20;
+  position:absolute;
+  top:60px;left: 17%;  width: 70%;
+}
+
+.titre1 {
+  width: 200px;
+  float: left;
+  background-color: #F2F1F0;
+  padding: 5px 5px 5px 5px;
+  border-width: 3px;
+  border-color: white;
+  border-style: solid;
+  font-size: 18px;
+}
+
+.titre1 strong {
+  color: #15B5B9;
+}
+
+.titre2 {
+  float: right;
+  text-align: right;
+  font-size: 18px;
+}
+
+.titre2 strong {
+  font-size: 24px;
+  color: #15B5B9;
+}
+
+.global {
+  z-index: 10;
+  position:relative;
+  top:220px; width:84%;height: 1000px;
+  float: left;
+}
+
+.p1 {
+  font-size: 20px;
+  text-align: center;
+}
+
+.ul1 {
+  /*position:absolute;*/
+  width: 50%;
+  height: 180px;
+  float: left;
+}
+
+.ul2 {
+  /*position:absolute;*/
+  width: 50%;
+  height: 180px;
+  float: left;
+}
+
+.ul3 {
+  /*position:absolute;*/
+  width: 50%;
+  height: 180px;
+  float: left;
+}
+
+.ul4 {
+  /*position:absolute;*/
+  width: 50%;
+  height: 180px;
+  float: left;
+}
+
+h3 {
+}
+
+h4 {
+  text-align: center;
+  color: #15B5B9;
+}
+
+.s1 {
+  padding: 5px 5px 5px 5px;
+}
+
+.s2 {
+  padding: 5px 5px 5px 5px;
+}
+
+.s3 {
+  padding: 5px 5px 5px 5px;
+}
+
+.s3 ul {
+  list-style-type: none;
+}
+
+hr {
+  margin-top: -15px;
+  height: 3px;
+  background-color: #15B5B9;
+}
+
+.td1 {
+  width: 150px;
+  font-size: 13px;
+}
+
+.td2 {
+  width: 500px;
+  font-size: 13px;
+}
+
+.td3 {
+  width: 400px;
+  font-size: 13px;
+}
