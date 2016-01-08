@@ -53,6 +53,10 @@ nav {
   color: #71B43D;
 }
 
+.codi a:hover, .codi a:active, .codi a:focus {
+  text-decoration: none;
+}
+
 .greta {
   max-width: 160px;
   margin: 0 80px;
