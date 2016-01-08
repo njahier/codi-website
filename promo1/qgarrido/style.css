@@ -1,0 +1,145 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 1.5;
+  background-color: #FFF;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  color: #71B43D;
+  text-decoration: none;
+}
+
+a:hover, a:active, a:focus {
+  color: #598E30;
+  text-decoration: underline;
+}
+
+::selection {
+  background-color: #71B43D;
+  text-shadow: none;
+}
+
+header {
+  height: 100px;
+  padding: 25px 0;
+  background-color: #222;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 1px;
+}
+
+nav {
+  width: 1170px;
+  margin: auto;
+}
+
+.codi {
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+  float: left;
+  font-size: 32px;
+  padding: 1px;
+  color: #71B43D;
+}
+
+.greta {
+  max-width: 160px;
+  margin: 0 80px;
+  float: left;
+}
+
+.menu {
+  height: 50px;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.menu li {
+  float: left;
+  padding: 13px;
+}
+
+.menu a {
+  color: #FFF;
+}
+
+.menu a:hover, .menu a:active, .menu a:focus {
+  color: #71B43D;
+  text-decoration: none;
+}
+
+.bg-grey {
+  background-color: #F7F7F7;
+}
+
+.clear {
+  clear: both;
+}
+
+section {
+  padding: 25px 0;
+  color: #777;
+}
+
+.width {
+  width: 1170px;
+  margin: auto;
+}
+
+.left {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+.right {
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+
+h1, h2, h3 {
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  line-height: 2;
+  color: #000;
+}
+
+label {
+  color: #000;
+}
+
+p, li {
+  text-align: center;
+}
+
+.photo {
+  max-width: 200px;
+  box-shadow: 3px 3px 3px #333;
+}
+
+footer {
+  width: 1170px;
+  margin: auto;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  text-align: center;
+  padding: 25px 0;
+}
+
+footer img {
+  height: 16px;
+}
