@@ -1,0 +1,205 @@
+/*Début du CSS*/
+/*Modification du Body*/
+body{
+  margin: 0;
+}
+/*Navigation*/
+/*Modification et Ajustement du Header*/
+.header-bg{
+  background-color: #222222;
+}
+#header-color{
+  color: #598e30;
+  padding-bottom: 20px;
+  padding-left: 20px;
+  padding-top: 20px;
+  font-size: 14pt;
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+  left: 0;
+  right: 0;
+}
+header>a{
+  color: #71b43d;
+  font-size: 18pt;
+  text-decoration: none;
+  float: left;
+  margin: 15px;
+  outline: 0;
+}
+header>a:hover{
+  color: #598e30;
+  outline: 0;
+}
+/*Modification et Ajustement de la Barre de Navigation*/
+header nav > div.container{
+  width: auto;
+  margin-right: 50px;
+  margin-left: 50px;
+  height: 80px;
+}
+.nav{
+  display: block;
+}
+header nav div ul{
+    padding-left: 400px;
+    padding-right: 0px;
+    margin: 0px;
+    list-style: none;
+    display: list-item;
+}
+header nav div ul li{
+    margin-left: 0px;
+    width: auto;
+    line-height: normal;
+    font-size: 14px;
+    text-transform: uppercase;
+    text-align: center;
+    padding-left: 20px;
+    padding-top: 30px;
+    padding-right: 15px;
+    letter-spacing: 2px;
+    float: left;
+}
+header nav div ul li a{
+  color: white;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, cursive;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  outline: 0;
+}
+header nav div ul li a:hover{
+  color: #white;
+  background-color: #71b43d;
+  border: 20px #71b43d solid;
+  border-radius: 10px;
+  outline: 0;
+}
+#git{
+  text-decoration: none;
+  color: #71b43d;
+}
+/*Modification et Ajustement des Sections*/
+.greylight-bg{
+  background-color: #F7F7F7;
+}
+section.container{
+    min-height: 215px;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+section > div.row{
+  margin: auto;
+  width: 960px;
+}
+#about .right, #project .right{
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+#about .left, #project .left{
+  width: 50%;
+  float: left;
+  text-align: center;
+}
+h1, h2{
+  color: #71b43d;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, cursive;
+  text-shadow: 1px 2px #7f7f7f;
+}
+#img-profil{
+  width: 150px;
+  height: 200px;
+  border-radius: 10px;
+  border: 1px #333 outset;
+  box-shadow: 5px 5px 15px #7f7f7f;
+}
+.label{
+  text-decoration: underline;
+  font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive;
+}
+/*Modification et Ajustement du Formulaire de contact*/
+form {
+    margin: 0 auto;
+    width: 600px;
+    padding: 1em;
+    border: 1px solid #CCC;
+    border-radius: 2em;
+}
+form div + div {
+    margin-top: 1em;
+}
+textarea {
+    font: 1em sans-serif;
+    width: 300px;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #999;
+}
+input:focus, textarea:focus {
+    border-color: #000;
+}
+input{
+  border-radius: 10px;
+}
+textarea {
+    vertical-align: top;
+    height: 5em;
+    resize: vertical;
+    border-radius: 10px;
+}
+.button {
+    padding-right: 150px;
+}
+form > button {
+    margin-left: 15px;
+}
+form div label{
+  color: #608F3A;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, cursive;
+}
+/*Modification du Bouton Top Page*/
+button{
+  margin-left: 47%;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+/*Modification et Ajustement du Footer*/
+.footer-bg{
+  background-color: #f7f7f7;
+}
+#footer-color{
+  text-align: center;
+  margin: 0;
+  padding: 20px 20px 20px 20px;
+  font-size: 14px;
+  font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, cursive;
+  left: 0;
+  right: 0;
+}
+/*Modification et Ajustement du Trombinoscope*/
+.trombi{
+  display: block;
+  width: 960px;
+  margin: auto;
+}
+.trombi img{
+  display: block;
+}
+.trombi li{
+  list-style-type: none;
+  text-align: center;
+  margin: 0px 5px 0px 0px;
+  width: 150px;
+  height: 215px;
+  float: left;
+}
+.trombi a{
+  color: #598e30;
+  text-decoration: none;
+}
+.trombi a:hover{
+  color: #333;
+}
+/*Fin du CSS*/
