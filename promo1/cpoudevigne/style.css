@@ -1,0 +1,133 @@
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+body{
+  font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+  background-color: #fff;
+  width: 100%;
+}
+.navbar{
+  padding: 25px 0;
+  background-color: #222222;
+  height: 100px;
+}
+.container{
+  width: 1170px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.navbar-title{
+  float: left;
+}
+.navbar-title a{
+  color: #71B43D;
+  text-decoration: none;
+  font-size: 2em;
+  font-family: "Kaushan Script";
+  transition: color 0.3s linear;
+  padding: 15px;
+  line-height: 50px;
+}
+.navbar-title a:hover{
+  color: #4B8E30;
+  transition: color 0.3s linear;
+}
+.navbar-img img{
+  max-width: 160px;
+  height: 50px;
+  margin-left: 30px;
+}
+.navbar-list{
+  display: inline-block;
+  list-style-type: none;
+}
+.navbar-list li{
+  float: left;
+  font-family: "Montserrat";
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.navbar-list>li>a{
+  color: #FFF;
+  padding: 10px 15px;
+  text-decoration: none;
+}
+.navbar-list>li>a:hover{
+  color: #71B43D;
+}
+.bg-light-grey{
+  background-color: #f7f7f7;
+}
+section{
+  padding: 80px 0;
+  margin: 0 auto;
+}
+.page-width{
+  width: 1170px;
+  margin: auto;
+}
+.left-content{
+  display: inline-block;
+  text-align: center;
+  line-height: 2em;
+  width: 49%;
+}
+h2{
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+.left-content label{
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  text-decoration: underline;
+}
+.left-content span{
+  color: #71B43D;
+  font-family: "Kaushan Script";
+}
+.right-content{
+  display: inline-block;
+  text-align: center;
+  line-height: 2em;
+  width: 49%;
+}
+.image-profil{
+  width: 150px;
+  height: 150px;
+  margin: 10px 0 0 0;
+  border-radius: 5px;
+  box-shadow: 0 0 5px 1px #000;
+}
+p{
+  text-align: center;
+  font-size: 1.2em;
+}
+#realise{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#en-cours{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#loisirs{
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+footer{
+  text-align: center;
+}
