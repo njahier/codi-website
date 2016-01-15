@@ -88,12 +88,16 @@ h3{
   width: 150px;
 }
 .largeur{
-  width: 960px;
+  width: 1170pxpx;
   margin: auto;
 }
 
 .center{
   width:1170px;
+<<<<<<< HEAD
+=======
+  margin: auto;
+>>>>>>> 26a2e3c7cd5ac0c8834ddd5ffee9b8b9ae1b0783
   min-height: 215px;
   padding-top:1em;
   padding-bottom:1em;

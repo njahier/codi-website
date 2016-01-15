@@ -1,0 +1,209 @@
+body {
+  font-size: 15px;
+  margin: 0px;
+  font-family: Helvetica, Arial;
+ }
+
+header {
+  background-color: black;
+  height: 100px;
+ }
+
+.div_header {
+  padding-top: 22px;
+  width: 1170px;
+  margin: auto;
+}
+
+h4 {
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    font-family: "Montserrat";
+    margin: 20px 0 20px 0;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+}
+
+section {
+  text-align: center;
+}
+
+.logo_greta {
+  max-width: 160px;
+  margin-left: 30px;
+  vertical-align: middle;
+}
+
+.codi {
+  text-decoration: none;
+  color: #71B43D;
+  font-family: "Kaushan Script";
+  font-size: 2em;
+  transition: 0.5s;
+}
+
+.codi:hover {
+  color: #598e30;
+  transition: 0.5s;
+}
+
+.gris {
+  background-color: #F7F7F7;
+ }
+
+p, li {
+  color: #777777;
+  font-size: 14px;
+ }
+
+#github {
+  color:#71B43D;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.largeur_1170px {
+  width: 1170px;
+  margin: auto;
+}
+
+.section_1 {
+  min-height: 210px;
+}
+
+nav {
+  display: inline-block;
+  margin-left: 10%;
+}
+
+.menu {
+  margin: auto;
+}
+
+.menu li {
+  display: inline-block;
+  margin:10px 30px
+}
+
+.menu li a {
+  color: white;
+  font-size: 17px;
+  text-decoration: none;
+  font-family: "Montserrat";
+  letter-spacing: 1px;
+}
+
+.menu li a:hover {
+  color: #71B43D;
+}
+
+.texte_a_propos {
+  color: #777777;
+}
+
+.a_propos_de_moi, .left {
+  float:left;
+  width: 50%;
+  text-align: center;
+  font-size: 18px;
+}
+
+.mon_div_image, .right {
+  float:left;
+  text-align: center;
+  width: 50%;
+}
+
+.ma_photo {
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 20px;
+  border-radius: 10%;
+}
+
+ .en_long {
+   width: 100%;
+   display: inline-block;
+ }
+
+ .projet {
+   text-decoration: none;
+   list-style: none;
+ }
+
+ /*.zoom_image {
+   zoom: 150%;
+ }
+
+.contact_traitement {
+  text-align: center;
+}
+
+.form_contact {
+    margin: 0 auto;
+    margin-top: 80px;
+    width: 400px;
+    padding: 20px;
+    border-left: 2px solid #777777;
+    border-right: 2px solid #777777;
+    background-image: url("lapin.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-color: white;
+    color: #323232;
+}
+
+.label_contact {
+    display: inline-block;
+    width: 150px;
+    text-align: right;
+}
+
+textarea {
+    vertical-align: top;
+    height: 50px;
+}
+
+.button {
+  display: inline-block;
+  margin-left: 52%;
+  margin-top: 10px;
+  border-top:#5D9432 4px solid;
+  border-left:#5D9432 4px solid;
+  border-right:#9E9F38 4px solid;
+  border-bottom:#9E9F38 4px solid;
+  border-radius: 50%;
+}
+
+button {
+  border-radius: 50%;
+  border: none;
+  background-color: #D4D54B;
+}
+.div_label {
+  margin-top: 5px;
+}
+
+.body_contact {
+  background-color: #F7F7F7;
+}
+
+input {
+  border-radius: 30%;
+  background-color: #F7F7F7;
+}
+
+textarea{
+  border-radius: 20%;
+  background-color: #F7F7F7;
+}*/
+
+footer {
+  text-align: center;
+  padding: 25px;
+}
