@@ -12,9 +12,9 @@ span {
   list-style-type: none;
   margin-top: 20px;
   float: right;
-  font-size: 20px;
+  font-size: 16px;
   font-family: "Monserrat","Helvetica Neue",-Arial-sans-serif;
-  letter-spacing:1px;
+  letter-spacing:2px;
 }
 
 .menu a{
@@ -94,10 +94,10 @@ h3{
 
 .center{
   width:1170px;
-  margin-left: 150px;
   min-height: 215px;
   padding-top:1em;
   padding-bottom:1em;
+  margin: auto;
 
 }
 
@@ -172,7 +172,7 @@ h1 {
   font-family:"Kaushan Script";
   color:#71b43d;
   font-size:25px;
-  padding-top: 20px;
+  padding-top: 10px;
 
 
 }
